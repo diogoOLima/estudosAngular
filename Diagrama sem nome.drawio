@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T19:00:56.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="d19NyCq74VGUUU55lKhG" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T19:08:47.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CRI10iQMQM5MHRB30PzJ" version="21.0.4" type="github">
   <diagram name="Página-1" id="34c1tFqvSpJC6opD18yf">
-    <mxGraphModel dx="2181" dy="3033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1602" dy="2751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -521,7 +521,7 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-218" value="PERMISSAO_PERFIL" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2010" y="120" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-219" value="CD_permissao_perfil(PK)&lt;br&gt;CD_permissao(FK)&lt;br&gt;CD_perfil(FK)&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-218" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-219" value="CD_permissao(FK)(PK)&lt;br&gt;CD_perfil(FK)(PK)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-218" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-221" value="CATEGORIA" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -553,7 +553,7 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-230" value="SOBREAVISO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="635.0000000000002" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-231" value="CD_sobreaviso(PK)&lt;br&gt;CD_local(FK)&lt;br&gt;DT_sobreaviso" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-230" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-231" value="CD_sobreaviso(PK)&lt;br&gt;CD_local(FK)&lt;br&gt;CD_usuario(FK)&lt;br&gt;DT_sobreaviso" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-230" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-277" value="(1,N)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-232" target="nKR082mUFp1Buz5sR-zI-231" edge="1">
@@ -569,13 +569,13 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-232" value="MEDICO_SOBREAVISO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="885" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-233" value="CD_medico_sobreaviso(PK)&lt;br&gt;CD_sobreaviso(FK)&lt;br&gt;CD_medico(FK)&lt;br&gt;HR_inicio&lt;br&gt;HR_fim&lt;br&gt;CD_especialidade" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-232" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-233" value="CD_sobreaviso(FK)(PK)&lt;br&gt;CD_medico(FK)(PK)&lt;br&gt;CD_especialidade(FK)&lt;br&gt;HR_inicio&lt;br&gt;HR_fim" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-232" vertex="1">
           <mxGeometry y="50" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.007;exitY=0.375;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitPerimeter=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-235" target="nKR082mUFp1Buz5sR-zI-233" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-280" value="(1,N)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-278" vertex="1" connectable="0">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-280" value="(0,N)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-278" vertex="1" connectable="0">
           <mxGeometry x="0.3023" y="-1" relative="1" as="geometry">
             <mxPoint x="-32" y="-4" as="offset" />
           </mxGeometry>
@@ -613,20 +613,20 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-238" value="ESPECIALIDADE_MEDICO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3340" y="1040" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-239" value="CD_especialidade_medico(PK)&lt;br&gt;CD_medico(FK)&lt;br&gt;CD_especialidade(FK)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-238" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-239" value="CD_medico(FK)&lt;br&gt;CD_especialidade(FK)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-238" vertex="1">
           <mxGeometry y="50" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-243" value="PLANTAO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3080" y="395" width="160" height="130" as="geometry" />
+          <mxGeometry x="3058" y="210" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-244" value="CD_plantao(PK)&lt;br&gt;CD_local(FK)&lt;br&gt;DT_plantao&lt;br&gt;repeticao" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-243" vertex="1">
-          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        <mxCell id="nKR082mUFp1Buz5sR-zI-244" value="CD_plantao(PK)&lt;br&gt;CD_local(FK)&lt;br&gt;CD_usuario(FK)&lt;br&gt;CD_medico_chefe NUMBER NOT NULL(FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CD_seg_medico_chefe: NUMBER(FK)&lt;br&gt;DT_plantao" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-243" vertex="1">
+          <mxGeometry y="50" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-245" target="nKR082mUFp1Buz5sR-zI-244" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3160" y="595" />
-              <mxPoint x="3160" y="595" />
+              <mxPoint x="3170" y="430" />
+              <mxPoint x="3170" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -641,10 +641,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-245" value="MEDICO_PLANTAO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3080" y="607.5" width="160" height="242.5" as="geometry" />
+          <mxGeometry x="3090" y="500" width="160" height="412.5" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-246" value="CD_medico(FK)(PK)&lt;br&gt;CD_plantao(FK)(PK)&lt;br&gt;HR_inicio&lt;br&gt;HR_fim&lt;br&gt;funcao&lt;br&gt;SN_sozinho&lt;br&gt;turno&lt;br&gt;competencia&lt;br&gt;DT_atestado&lt;br&gt;HR_inicio&lt;br&gt;HR_fim" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-245" vertex="1">
-          <mxGeometry y="50" width="160" height="192.5" as="geometry" />
+        <mxCell id="nKR082mUFp1Buz5sR-zI-246" value="CD_medico(FK)(PK)&lt;br&gt;CD_plantao(FK)(PK)&lt;br&gt;HR_inicio&lt;br&gt;HR_fim&lt;br&gt;SN_sozinho&lt;br&gt;&lt;br&gt;competencia&lt;br&gt;DT_atestado&lt;br&gt;HR_inicio&lt;br&gt;HR_fim&lt;br&gt;&lt;br&gt;CD_fat_lancamento&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;TP_RDA&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CD_lancamento&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RDA_filial&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;QT_atendimento&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;QT_garantido&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_paciente_extra&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_total&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_perc_chefia&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_perc_sozinho&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_sozinho&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_chefia&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DT_lancamento" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-245" vertex="1">
+          <mxGeometry y="50" width="160" height="362.5" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-249" value="Duvida4: Nas tabelas criadas das cardinalidades de N para N as FK serao PK. &lt;br&gt;E preciso criar uma PK propria para essas tabelas?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-770" y="180" width="440" height="40" as="geometry" />
@@ -731,31 +731,12 @@
             <mxPoint x="143" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-308" target="nKR082mUFp1Buz5sR-zI-246" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-316" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-315" vertex="1" connectable="0">
-          <mxGeometry x="0.6416" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-317" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-315" vertex="1" connectable="0">
-          <mxGeometry x="-0.8153" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-308" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;FAT_LANCAMENTO_PLANTAO&lt;/blockquote&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2590" y="590" width="330" height="275" as="geometry" />
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-309" value="CD_medico (FK)(PK)&lt;br&gt;CD_medico (FK)(PK)&lt;br&gt;TP_RDA&lt;br&gt;CD_FAT_LANCAMENTO&lt;br&gt;CD_LANCAMENTO&lt;br&gt;RDA_FILIAL&lt;br&gt;QT_ATENDIMENTO&lt;br&gt;QT_GARANTIDO&lt;br&gt;VL_PACIENTE_EXTRA&lt;br&gt;VL_TOTAL&lt;br&gt;VL_PERC_CHEFIA&lt;br&gt;VL_PERC_SOZINHO&lt;br&gt;VL_SOZINHO&lt;br&gt;VL_CHEFIA&lt;br&gt;DT_LANCAMENTO" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-308" vertex="1">
-          <mxGeometry y="50" width="330" height="225" as="geometry" />
-        </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-312" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;FAT_LANCAMENTO_SOBREAVISO&lt;/blockquote&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=left;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1910" y="690" width="300" height="195" as="geometry">
             <mxRectangle x="1760" y="1455" width="310" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-313" value="CD_medico()&lt;br&gt;CD_&lt;br&gt;TP_RDA&lt;br&gt;CD_FAT_LANCAMENTO&lt;br&gt;CD_LANCAMENTO&lt;br&gt;RDA_FILIAL&lt;br&gt;VALOR_TOTAL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-312" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-313" value="CD_sobreaviso(FK)(PK)&lt;br&gt;CD_medico(FK)(PK)&lt;br&gt;TP_RDA&lt;br&gt;CD_FAT_LANCAMENTO&lt;br&gt;CD_LANCAMENTO&lt;br&gt;RDA_FILIAL&lt;br&gt;VALOR_TOTAL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-312" vertex="1">
           <mxGeometry y="50" width="300" height="145" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-318" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-313" target="nKR082mUFp1Buz5sR-zI-233" edge="1">
@@ -774,7 +755,7 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-235" target="nKR082mUFp1Buz5sR-zI-239" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-323" value="(0,N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-321" vertex="1" connectable="0">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-323" value="(1,N)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-321" vertex="1" connectable="0">
           <mxGeometry x="0.6507" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1039,18 +1020,6 @@
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-392" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;DT_plantao&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2290" y="2029.9099999999999" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-393" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-394" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2440" y="2049.91" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2410" y="2090" />
-              <mxPoint x="2410" y="2050" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-394" value="repeticao" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="2069.91" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-395" value="(1,1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.999;entryY=0.593;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-397" target="nKR082mUFp1Buz5sR-zI-368" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1329,13 +1298,11 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-478" value="cadastra" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1770" y="1810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-481" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-233" target="nKR082mUFp1Buz5sR-zI-239" edge="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-481" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-233" target="nKR082mUFp1Buz5sR-zI-237" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2480" y="1190" />
-              <mxPoint x="3470" y="1190" />
-              <mxPoint x="3470" y="1165" />
-              <mxPoint x="3475" y="1165" />
+              <mxPoint x="3790" y="1190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1344,7 +1311,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-483" value="(0,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-481" vertex="1" connectable="0">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-483" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nKR082mUFp1Buz5sR-zI-481" vertex="1" connectable="0">
           <mxGeometry x="0.8193" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1574,18 +1541,6 @@
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-683" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;DT_plantao&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2266" y="3484.91" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-684" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-685" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2416" y="3504.91" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2386" y="3545" />
-              <mxPoint x="2386" y="3505" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-685" value="repeticao" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2266" y="3524.91" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-686" value="(1,1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.999;entryY=0.593;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-688" target="nKR082mUFp1Buz5sR-zI-660" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1962,7 +1917,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-875" value="FILIAL" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2546" y="-1680" width="310" height="120" as="geometry" />
+          <mxGeometry x="2624.5" y="-1670" width="310" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-876" value="CD_filial NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;NM_filial VARCHAR2(50) NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-875" vertex="1">
           <mxGeometry y="50" width="310" height="70" as="geometry" />
@@ -1979,7 +1934,7 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-879" value="PLANTAO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3779" y="-1730" width="334" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-880" value="CD_plantao NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_usuario NUMBER NOT NULL(FK)&lt;br&gt;CD_local NUMBER NOT NULL(FK)&lt;br&gt;DT_plantao DATE NOT NULL&lt;br&gt;repeticao CHAR(1) NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-879" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-880" value="CD_plantao NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_usuario NUMBER NOT NULL(FK)&lt;br&gt;CD_local NUMBER NOT NULL(FK)&lt;br&gt;CD_medico_chefe NUMBER NOT NULL(FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CD_seg_medico_chefe: NUMBER(FK)&lt;br&gt;HR_inicio DATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HR_fim DATE&lt;br&gt;DT_plantao DATE NOT NULL&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-879" vertex="1">
           <mxGeometry y="50" width="334" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-888" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERzeroToMany;startFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-881" target="nKR082mUFp1Buz5sR-zI-877" edge="1">
@@ -2002,7 +1957,7 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-892" value="MEDICO_PLANTAO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3834" y="-1390" width="248" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-893" value="CD_medico NUMBER NOT NULL(FK)(PK)&lt;br&gt;CD_plantao NUMBER NOT NULL(FK)(PK)&lt;br&gt;HR_inicio DATE NOT NULL&lt;br&gt;HR_fim DATE NOT NULL&lt;br&gt;funcao VARCHAR(50) NOT NULL&lt;br&gt;SN_sozinho CHAR(1) NOT NULL&lt;br&gt;&lt;br&gt;competencia VARCHAR2(50)&lt;br&gt;DT_atestado DATE&amp;nbsp;&lt;br&gt;HR_inicio DATE&lt;br&gt;HR_fim DATE&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CD_fat_lancamento&lt;br&gt;TP_RDA&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CD_lancamento&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RDA_filial&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;QT_atendimento&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;QT_garantido&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_paciente_extra&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_total&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_perc_chefia&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_perc_sozinho&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_sozinho&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VL_chefia&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DT_lancamento" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-892" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-893" value="CD_medico NUMBER NOT NULL(FK)(PK)&lt;br&gt;CD_plantao NUMBER NOT NULL(FK)(PK)&lt;br&gt;HR_inicio DATE NOT NULL&lt;br&gt;HR_fim DATE NOT NULL&lt;br&gt;SN_sozinho CHAR(1) NOT NULL&lt;br&gt;competencia VARCHAR2(50)&lt;br&gt;DT_atestado DATE&amp;nbsp;&lt;br&gt;HR_inicio DATE&lt;br&gt;HR_fim DATE" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-892" vertex="1">
           <mxGeometry y="50" width="248" height="370" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-895" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-880" target="nKR082mUFp1Buz5sR-zI-892" edge="1">
@@ -2061,7 +2016,7 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-920" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-919" target="nKR082mUFp1Buz5sR-zI-913" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JbcFfwTKZEMa9ELED8y2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-862" target="nKR082mUFp1Buz5sR-zI-879" edge="1">
+        <mxCell id="JbcFfwTKZEMa9ELED8y2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="nKR082mUFp1Buz5sR-zI-862" target="nKR082mUFp1Buz5sR-zI-879">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
