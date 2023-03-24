@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T21:08:44.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8_lKiOOf-wbrBqDME-tt" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T20:22:03.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PSFgEl30ow29m1p_WNMs" version="21.1.0" type="github">
   <diagram name="Página-1" id="34c1tFqvSpJC6opD18yf">
-    <mxGraphModel dx="1783" dy="3415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1862" dy="2870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1858,7 +1858,7 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-861" value="USUARIO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2538.5" y="-1940" width="343" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-862" value="CD_usuario NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_perfil NUMBER&amp;nbsp; NOT NULL(FK)&lt;br&gt;NM_usuario VARCHAR2(250) NOT NULL&lt;br&gt;DS_login VARCHAR2(50) NOT NULL&lt;br&gt;DS_senha VARCHAR2(50) NOT NULL&lt;br&gt;SN_integracao_AD VARCHAR2(1) NOT NULL&lt;br&gt;SN_ativo CHAR(1) NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-861" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-862" value="CD_usuario NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_perfil NUMBER&amp;nbsp; NOT NULL(FK)&lt;br&gt;NM_usuario VARCHAR2(250) NOT NULL&lt;br&gt;DS_login VARCHAR2(50) NOT NULL&lt;br&gt;DS_senha VARCHAR2(50) NOT NULL&lt;br&gt;SN_integracao_AD VARCHAR2(1) NOT NULL&lt;br&gt;SN_ativo VARCHAR2(1) NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-861" vertex="1">
           <mxGeometry y="50" width="343" height="115" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-863" value="PERMISSAO_PERFIL" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1905,13 +1905,13 @@
         <mxCell id="nKR082mUFp1Buz5sR-zI-877" value="LOCAL" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2621" y="-1440" width="317" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-878" value="CD_local NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_filial NUMBER NOT NULL(FK)&lt;br&gt;NM_local VARCHAR2(50) NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-877" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-878" value="CD_local NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_filial NUMBER NOT NULL(FK)&lt;br&gt;NM_local VARCHAR2(250) NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-877" vertex="1">
           <mxGeometry y="50" width="317" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-879" value="PLANTAO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3779" y="-1730" width="334" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="nKR082mUFp1Buz5sR-zI-880" value="CD_plantao NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_usuario NUMBER NOT NULL(FK)&lt;br&gt;CD_local NUMBER NOT NULL(FK)&lt;br&gt;CD_medico_chefe NUMBER NOT NULL(FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CD_seg_medico_chefe: NUMBER(FK)&lt;br&gt;HR_inicio DATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HR_fim DATE&lt;br&gt;DT_plantao DATE NOT NULL&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-879" vertex="1">
+        <mxCell id="nKR082mUFp1Buz5sR-zI-880" value="CD_plantao NUMBER NOT NULL AUTO_INCREMENT(PK)&lt;br&gt;CD_usuario NUMBER NOT NULL(FK)&lt;br&gt;CD_local NUMBER NOT NULL(FK)&lt;br&gt;CD_medico_chefe NUMBER NOT NULL(FK)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CD_seg_medico_chefe: NUMBER(FK)&lt;br&gt;HR_inicio DATE NOT NULL&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HR_fim DATE NOT NULL&lt;br&gt;DT_plantao DATE NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="nKR082mUFp1Buz5sR-zI-879" vertex="1">
           <mxGeometry y="50" width="334" height="130" as="geometry" />
         </mxCell>
         <mxCell id="nKR082mUFp1Buz5sR-zI-888" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERzeroToMany;startFill=0;" parent="1" source="nKR082mUFp1Buz5sR-zI-881" target="nKR082mUFp1Buz5sR-zI-877" edge="1">
